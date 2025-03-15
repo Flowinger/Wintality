@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    ".next",  // ✅ Exclude Next.js build files
+    "public",
+    "out"
+  ]
+}
